@@ -1,0 +1,23 @@
+{
+  "name": "jsonserver",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "json:server": "json-server --watch db.json",
+    "json:server:remote":"json-server http://jsonplaceholder.typicode.com/db"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thangakumard/07_JsonServer.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thangakumard/07_JsonServer/issues"
+  },
+  "homepage": "https://github.com/thangakumard/07_JsonServer#readme",
+  "dependencies": {
+    "json-server": "^0.12.1"
+  }
+}
